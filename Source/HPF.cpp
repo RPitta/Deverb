@@ -30,9 +30,7 @@ void HPF::setFrequency(float newFreq) {
     if (newFreq != freq || newFreq != 0.0f) {
         updateCoefficients();
         freq = newFreq;
-    }
-
-    
+    }   
 }
 
 void HPF::updateCoefficients() {
